@@ -20,7 +20,7 @@ public class ViewCourses extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_courses);
-        //initializing our all variables.
+        //initializing our all variables
         courseModalArrayList = new ArrayList<>();
         dbHandler = new DBHandler(ViewCourses.this);
         //getting our course array list from db handler class.
